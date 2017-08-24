@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="avi.singh.swipe_gestures.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SWIPE DOWN"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/TD"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SWIPE UP"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+
+        android:id="@+id/DT"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SWIPE RIGHT"
+        android:layout_centerVertical="true"
+        android:id="@+id/LR"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SWIPE LEFT"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/RL"/>
+
+
+
+</RelativeLayout>
