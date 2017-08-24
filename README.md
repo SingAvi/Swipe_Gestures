@@ -8,18 +8,18 @@ Lets you display or start Activity on swipe from particular four directions usin
 # SO REPLACE 
 
 
-<---   
+'''
          if (x1 < x2)
                     {
                         Toast.makeText(this, "Left to Right Swap Performed", Toast.LENGTH_LONG).show();
                         setContentView(R.layout.left_right);
                     }
                     
-                                --->
+                                '''
    # BY
    
    
-   <----    
+   '''   
         if (x1 < x2)
                     {
                         Toast.makeText(this, "Left to Right Swap Performed", Toast.LENGTH_LONG).show();
@@ -27,6 +27,6 @@ Lets you display or start Activity on swipe from particular four directions usin
                          
                     }
                     
-                               ---->
+                               '''
                               
  ## Happy Coding
